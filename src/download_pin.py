@@ -53,8 +53,8 @@ def fetch_and_save_images(url, image_directory_path, num_images):
         browser.quit()
 
 if __name__ == "__main__":
-    url = 'https://jojowiki.com/Jotaro_Kujo/Gallery'
-    image_directory_path = './jotaro'
+    url = '' # TEST URL HERE
+    image_directory_path = './yourfilename'
     num_images = 50
     
     if not os.path.exists(image_directory_path):
